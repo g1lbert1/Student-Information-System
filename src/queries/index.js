@@ -1,0 +1,6 @@
+export * from './instructorQueries.js'
+export * from './instructorMutations.js'
+export * from './courseQueries.js'
+export * from './courseMutations.js'
+export * from './studentQueries.js'
+export * from './studentMutations.js'
