@@ -76,7 +76,7 @@ export const REMOVE_COURSE = gql `
 `
 
 export const UPDATE_COURSE_INSTRUCTOR = gql `
-  mutation UpdateCourseInstructor($courseId: String!, instructorId: String!) {
+  mutation UpdateCourseInstructor($courseId: String!, $instructorId: String!) {
     updateCourseInstructor(courseId: $courseId, instructorId: $instructorId) {
       _id
       course_name
